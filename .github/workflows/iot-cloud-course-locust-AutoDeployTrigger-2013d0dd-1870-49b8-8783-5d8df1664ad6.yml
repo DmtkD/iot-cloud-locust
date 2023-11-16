@@ -37,6 +37,7 @@ jobs:
           resourceGroup: iot-cloud-course
           imageToBuild: dmtkd/iot-cloud-course-locust:${{ github.sha }}
           dockerfilePath: Dockerfile
+          targetPort: 8087
 
      
 
